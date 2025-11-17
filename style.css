@@ -701,7 +701,7 @@ header {
   .about-container .us {
     margin-left: 3rem;
   }
-  .nice .logo{
+  .nice .logo {
     margin-left: -4rem;
   }
 }
@@ -715,11 +715,11 @@ header {
     font-size: 22px;
   }
   .navbar li a {
-    font-size: .9rem;
+    font-size: 0.9rem;
     padding: 0.5rem 0.7rem;
   }
 
-  .container .box{
+  .container .box {
     margin-bottom: -5rem;
     margin-left: -2rem;
   }
@@ -735,7 +735,7 @@ header {
     padding: 0;
   }
 
-  .home .container{
+  .home .container {
     padding: 3rem 0 3rem 0;
   }
   .about .about-container {
@@ -750,57 +750,57 @@ header {
   .about-container .us {
     margin-left: 2rem;
   }
-  .foot .food{
+  .foot .food {
     padding: 2rem;
   }
 }
 
 @media screen and (max-width: 750px) {
   #menu {
-  display: block;
-}
- .logo {
+    display: block;
+  }
+  .logo {
     font-size: 25px;
     padding: 0 40px;
   }
-.navbar{
-  position: absolute;
-  top: -570px;
-  left: 0;
-  right: 0;
-  display: flex;
-  flex-direction: column;
-  background-color:rgb(187, 187, 186);
-  box-shadow: 4px 4px 0 4px rgb(14 55 54 / 15%);
-  transition: 0.2s all linear;
-  text-align: left;
-}
+  .navbar {
+    position: absolute;
+    top: -570px;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(187, 187, 186);
+    box-shadow: 4px 4px 0 4px rgb(14 55 54 / 15%);
+    transition: 0.2s all linear;
+    text-align: left;
+  }
 
-.navbar a{
-  padding: 1rem;
-  margin: 1rem;
-  display: block;
-}
+  .navbar a {
+    padding: 1rem;
+    margin: 1rem;
+    display: block;
+  }
 
-.navbar a:hover, .navbar a.active{
-  border-radius: 00.5rem;
-}
+  .navbar a:hover,
+  .navbar a.active {
+    border-radius: 00.5rem;
+  }
 
-.navbar.active{
-  top: 100%;
-}
+  .navbar.active {
+    top: 100%;
+  }
 
-
- .home .container img {
+  .home .container img {
     width: 300px;
   }
 
-    .container .box h2 {
+  .container .box h2 {
     font-size: 21px;
     font-weight: 600;
     margin-left: -20rem;
   }
-  .container .box span{
+  .container .box span {
     margin-left: -20rem;
   }
   .home .container {
@@ -814,7 +814,7 @@ header {
     margin-top: 8.6rem;
   }
 
-  .container .box .btn{
+  .container .box .btn {
     position: relative;
     right: -5rem;
     margin-top: -7rem;
@@ -861,19 +861,18 @@ header {
     text-align: center;
     padding: 2rem;
   }
-  .foot .food{
+  .foot .food {
     flex-direction: column;
     align-items: start;
     padding-top: 7rem;
     padding-left: 5rem;
   }
-  .nice .logo{
+  .nice .logo {
     margin-left: -4rem;
   }
-   .copy p {
-  font-size: 18px;
-  
-}
+  .copy p {
+    font-size: 18px;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -893,13 +892,13 @@ header {
     margin: auto;
     padding-top: 9rem;
   }
-   
+
   .container .box h2 {
     font-size: 18px;
     font-weight: 600;
     margin-left: -10rem;
   }
-  .container .box span{
+  .container .box span {
     margin-left: -10rem;
   }
   .home .container {
@@ -912,7 +911,7 @@ header {
     margin-left: 5rem;
   }
 
-  .container .box .btn{
+  .container .box .btn {
     position: relative;
     right: -5rem;
     margin-top: -7rem;
@@ -959,12 +958,98 @@ header {
     text-align: center;
     padding: 2rem;
   }
-   .foot .food{
+  .foot .food {
     padding-left: 5rem;
   }
 
   .copy p {
-  font-size: 16px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 359px) {
+  .logo {
+    display: flex;
+    column-gap: 0.3rem;
+    position: relative;
+    left: -1.5rem;
+    font-size: 17px;
+  }
+  #menu {
+    font-size: 1rem;
+    display: flex;
+    position: relative;
+    left: -2rem;
+  }
+
+  .profile {
+  display: flex;
+  align-items: center;
   
+}
+
+.profile img {
+  width: 30px;
+}
+.profile span {
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+
+
+
+
+  .home .container {
+    padding: 3rem;
+  }
+  .home .container img {
+    margin: auto;
+    width: 300px;
+  }
+
+  .container .box {
+    padding: 4rem;
+  }
+
+  .container .box .btn {
+    font-size: 15px;
+    padding: 0.4rem 0.8rem;
+    position: absolute;
+    right: 5rem;
+  }
+
+
+  .categories .cate h2 {
+  margin-left: 1rem;
+  font-size: 17px;
+}
+.categories .cate .btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12px;
+  padding: 0.4rem 0.8rem;
+  position: relative;
+  right: -1rem;
+}
+.products .prod h2{
+  font-size: 16px;
+  margin-left: 1rem;
+}
+
+.products .prod .btn {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  padding: 0.4rem 0.8rem;
+  position: relative;
+  right: -1.5rem;
+}
+
+.customers-container .cust .pic img {
+  margin-top: -.1rem;
+  width: 40px;
 }
 }
